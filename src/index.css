@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #eee;
+  margin: 20px 0;
+}
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6em;
+}
+body {
+  font-size: 14px;
+  color: #333;
+}
+
+p {
+  margin: 0.3em 0;
+}
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #999;
+  font-size: 14px;
+}
+.page2 {
+  /*page-break-before: always;*/
+  margin-top: 30px;
+}
+article {
+  width: 21cm;
+  min-height: 29.7cm;
+  background: white;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 1em;
+}
+h1 {
+  font-size: 24px;
+}
+.information,
+.intention {
+  display: flex;
+  flex-direction: row;
+}
+.information > li {
+  margin-right: 16px;
+}
+.intention > li {
+  margin-right: 16px;
+}
+.information > li > a {
+  color: inherit;
+  margin-left: 0;
+  border-bottom: solid 1px;
+}
+.intention {
+  margin-top: 6px;
+}
+.bio {
+  position: relative;
+}
+.bio img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 147px;
+  height: 206px;
+}
+.experience li li{
+  margin-top: 10px;
+}
+
+/*.openSource{*/
+/*  margin-top: 200px;*/
+/*}*/
+.projects h4,
+.openSource h4 {
+  display: inline-block;
+}
+.projects li {
+  margin-bottom: 24px;
+}
+.openSource li {
+  margin-bottom: 70px;
+}
+.projects header,
+.openSource header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+strong {
+  color: #f60;
+}
+.skill li {
+  line-height: 1.8em;
+}
+.link {
+  position: relative;
+}
+.link li {
+  line-height: 1.8em;
+}
+
+.link a {
+  margin-left: 20px;
+}
+
+.indent{
+  margin-left: 2em;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.indent img {
+  width: 100px;
+  height: 100px;
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*margin-top: 30px;*/
+}
+
+.indent10{
+  margin-left: 10px;
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+  article {
+    width: auto;
+    height: auto;
+  }
+
+  .bio img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 74px;
+    height: 104px;
+  }
+  .information,
+  .intention {
+    flex-wrap: wrap;
+  }
+  .openSource li {
+    margin-bottom: 16px;
+  }
+  .page2 {
+    margin-top: 0;
+  }
+  .link a {
+    font-size: 12px;
+  }
+  .indent img {
+    display: none;
+  }
+}

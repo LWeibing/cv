@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  margin: 20px 0;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+  list-style: none;
+}
+
+body {
+  color: #333;
+  font-size: 14px;
+}
+
+p {
+  margin: .3em 0;
+}
+
+h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  color: #999;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.page2 {
+  margin-top: 30px;
+}
+
+article {
+  background: #fff;
+  width: 21cm;
+  min-height: 29.7cm;
+  margin: 0 auto;
+  padding: 1em;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.information, .intention {
+  flex-direction: row;
+  display: flex;
+}
+
+.information > li, .intention > li {
+  margin-right: 16px;
+}
+
+.information > li > a {
+  color: inherit;
+  border-bottom: 1px solid;
+  margin-left: 0;
+}
+
+.intention {
+  margin-top: 6px;
+}
+
+.bio {
+  position: relative;
+}
+
+.bio img {
+  width: 147px;
+  height: 206px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.experience li li {
+  margin-top: 10px;
+}
+
+.projects h4, .openSource h4 {
+  display: inline-block;
+}
+
+.projects li {
+  margin-bottom: 24px;
+}
+
+.openSource li {
+  margin-bottom: 70px;
+}
+
+.projects header, .openSource header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+strong {
+  color: #f60;
+}
+
+.skill li {
+  line-height: 1.8em;
+}
+
+.link {
+  position: relative;
+}
+
+.link li {
+  line-height: 1.8em;
+}
+
+.link a {
+  margin-left: 20px;
+}
+
+.indent {
+  margin-left: 2em;
+}
+
+.flex {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.indent img {
+  width: 100px;
+  height: 100px;
+}
+
+.indent10 {
+  margin-left: 10px;
+}
+
+@media (width <= 500px) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  article {
+    width: auto;
+    height: auto;
+  }
+
+  .bio img {
+    width: 74px;
+    height: 104px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .information, .intention {
+    flex-wrap: wrap;
+  }
+
+  .openSource li {
+    margin-bottom: 16px;
+  }
+
+  .page2 {
+    margin-top: 0;
+  }
+
+  .link a {
+    font-size: 12px;
+  }
+
+  .indent img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=index.61d3354a.css.map */
