@@ -78,9 +78,9 @@ h1 {
   margin-top: 10px;
 }
 
-/*.openSource{*/
-/*  margin-top: 200px;*/
-/*}*/
+.openSource{
+  margin-top: 80px;
+}
 .projects h4,
 .openSource h4 {
   display: inline-block;
