@@ -40,7 +40,7 @@ article {
   background: white;
   margin: 0 auto;
   overflow: auto;
-  padding: 1em;
+  padding: 1em 2em;
 }
 h1 {
   font-size: 24px;
@@ -51,7 +51,7 @@ h1 {
   flex-direction: row;
 }
 .information > li {
-  margin-right: 16px;
+  margin-right: 24px;
 }
 .intention > li {
   margin-right: 16px;
@@ -119,6 +119,14 @@ strong {
   margin-left: 2em;
 }
 
+.indent4{
+  margin-left: 4em;
+}
+
+.textIndent{
+  text-indent: 2em
+}
+
 .flex{
   display: flex;
   align-items: center;
@@ -132,10 +140,6 @@ strong {
   /*top: 0;*/
   /*right: 0;*/
   /*margin-top: 30px;*/
-}
-
-.indent10{
-  margin-left: 10px;
 }
 
 @media (max-width: 500px) {

@@ -42,7 +42,7 @@ article {
   width: 21cm;
   min-height: 29.7cm;
   margin: 0 auto;
-  padding: 1em;
+  padding: 1em 2em;
   overflow: auto;
 }
 
@@ -55,7 +55,11 @@ h1 {
   display: flex;
 }
 
-.information > li, .intention > li {
+.information > li {
+  margin-right: 24px;
+}
+
+.intention > li {
   margin-right: 16px;
 }
 
@@ -131,6 +135,14 @@ strong {
   margin-left: 2em;
 }
 
+.indent4 {
+  margin-left: 4em;
+}
+
+.textIndent {
+  text-indent: 2em;
+}
+
 .flex {
   justify-content: space-between;
   align-items: center;
@@ -140,10 +152,6 @@ strong {
 .indent img {
   width: 100px;
   height: 100px;
-}
-
-.indent10 {
-  margin-left: 10px;
 }
 
 @media (width <= 500px) {
